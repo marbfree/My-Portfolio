@@ -24,7 +24,20 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1, figcaption {
   text-align: center;
-  color: rgb(224, 224, 20);
-  text-shadow: 10px 5px 2px black;}
+  color: rgb(19, 97, 101);
+  text-shadow: 10px 5px 2px black;
+}
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+}
+
+img {
+   padding: 5px;
+   border: solid rgb(224, 224, 20) 2px;
+   background-color: 20px;}
