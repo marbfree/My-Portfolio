@@ -1,0 +1,1 @@
+Reset was copied from Activity 12 from Week 2 CSS Resets.

@@ -25,6 +25,7 @@ a {
 }
 
 h1, figcaption {
+  margin: 20px;
   text-align: center;
   color: rgb(19, 97, 101);
   text-shadow: 10px 5px 2px black;
@@ -38,9 +39,26 @@ h1, figcaption {
    width: 25%;
 }
 
-img {
+#headshot {
    padding: 5px;
    border: solid rgb(224, 224, 20) 2px;
-   background-color: 20px;}
+   background-color: 20px;
+   width:auto;
+   max-height: 100%;
+}
 
-figcaption {font-size: 1.25em;}
+figcaption {
+  font-size: 1.25em;
+}
+
+nav a:hover {
+  color: rgb(19, 97, 101);
+}
+
+#First-Project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 50%;
+}
