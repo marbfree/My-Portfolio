@@ -13,8 +13,10 @@ nav a:hover {
   color: var(--purple);
 }
 
-nav {border-bottom: solid 5px var(--yellow);
-  background-color: var(--teal) ;}
+nav {
+  border-bottom: solid 5px var(--yellow);
+  background-color: var(--teal);
+}
 
 body {
   position: relative;
@@ -27,7 +29,8 @@ li {
   display: inline;
 }
 
-ul {text-align: right;
+ul {
+   text-align: right;
    word-spacing: 10px;
    padding: 20px;
    }
@@ -99,13 +102,13 @@ p {
 }
 
 .bottom-left {
-  position: absolute;
+  display: inline-flex;
+  position: relative;
   bottom: 75px;
-  left: 320px;
   color: white;
   border: solid black 1px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px ;
   background-color: black;
 }
 
@@ -113,3 +116,22 @@ footer {
   padding-bottom: 25px;
   background-color: var(--teal);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 110px;
+}
+
+.Placeholder {
+  display: inline-flex;
+  position: relative;
+  color: white;
+  right: 102px;
+  background-color: black;
+  border-radius: 10px;
+  border: solid black 1px;
+  font-size: .75em;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;}
