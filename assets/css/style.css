@@ -131,15 +131,17 @@ h2 {
   padding: 5px;
   background-color: var(--purple);
 }
+
  /* flext box section styling */
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding-left: 110px;
+  padding-bottom: 50px;
 }
 
-/* style the text box for the placeholder images and links.  Will be replaced onces projects are created */
+/* style the text box for the placeholder images and links.  Set font size to .75em which is 15 px.  Will be replaced onces projects are created */
 .Placeholder-text-box{
   display: inline-flex;
   position: relative;
@@ -152,21 +154,26 @@ h2 {
   padding: 5px;
   }
 
-  /* styling the contact me section  */
+  /* created a border for the placeholder images */
+  img {
+    border: solid var(--yellow) 1px;
+  }
+
+  /* styling the email and name section  */
 #Contact {
   padding: 5px;
   padding-top: 20px;
   color: var(--purple)
-  border: solid var(--yellow) 5px;
 }
 
 /* styling the footer section which holds the contact information */
   footer {
     padding-bottom: 30px;
     background-color: var(--teal);
+    border-top: solid var(--yellow) 5px;
   }
 
-  /* styling the submit button */
+  /* styling the submit button to better represent the page asthetic.  Set font size to 1 em, or 20px*/
   #button {
     color: var(--yellow);
     background-color: var(--purple);
