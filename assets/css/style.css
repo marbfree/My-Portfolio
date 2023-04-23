@@ -1,23 +1,28 @@
+/* added root pseudo class to make assigning colors easier */
 :root {
   --teal: rgb(19, 97, 101);
   --yellow: rgb(224, 224, 20);
   --purple: rgb(67, 14, 67);
 }
 
+/* created a hover color on nav. links */
+nav a:hover {
+  color: var(--purple);
+}
+
+/* setting the base margin and padding to 0 to be able to adjust from there */
 * {
   margin: 0;
   padding: 0;
 }
 
-nav a:hover {
-  color: var(--purple);
-}
-
+/* created a nav section */
 nav {
   border-bottom: solid 5px var(--yellow);
   background-color: var(--teal);
 }
 
+/* sets the body position and style */
 body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -25,23 +30,28 @@ body {
   background-color: var(--purple);
 }
 
+/* I want the links to display horizontally*/
 li {
   display: inline;
 }
 
+/* to display the ul in a line to the right of the page */
 ul {
    text-align: right;
    word-spacing: 10px;
    padding: 20px;
    }
 
+  /* links to be yellow with no underline */
 a {
   color: var(--yellow);
   text-decoration: none;
 }
 
+
 h1 {padding-bottom: 15px;}
 
+/* styling the h1 heading and caption with drop shadows, letter outline */
 h1, figcaption {
   margin-top: 50px;
   text-align: center;
@@ -50,6 +60,7 @@ h1, figcaption {
   -webkit-text-stroke: 1px black;
 }
 
+/* created a 'center' class to style different section of the page all in the center using the same values */
 .center {
    display: block;
    margin-left: auto;
@@ -57,6 +68,8 @@ h1, figcaption {
    text-align: center;
 }
 
+/* styling the headshot photo with multiple borders using inset box-shadow.
+   also setting the size of the photo. */
 #headshot {
    padding: 10px;
    border: solid black 10px;
@@ -66,52 +79,59 @@ h1, figcaption {
    box-shadow: inset 0 0 0 5px var(--teal);
 }
 
+/* styling the caption of the headshot */
 figcaption {
   font-size: 1.25em;
   border-bottom: solid 5px var(--yellow);
   padding-bottom: 50px;
 }
 
+/* created a background color for an entire section */
 section, div {
   background-color: var(--teal);
 }
 
+/* styling h2 */
 h2 { 
   color: var(--yellow);
   font-size: 2em;
   padding-top: 50px;
+  padding-bottom: 25px;
   text-decoration: underline;
 } 
 
+/* styling the class bio */
 .Bio {
   text-align: center;
   color: var(--purple);
   font-size: 1em;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 25px;
   border-bottom: solid 5px var(--yellow);
 }
 
+/* styling the photo link to be largest in portfolio section */
 #First-Project {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px 10px;
   width: 50%;
   max-height: 50%;
+  border: solid var(--yellow) 2px;
 }
 
-.bottom-left {
+/* created a class for the inset text box on first project photo */
+.text-box {
   display: inline-flex;
   position: relative;
-  bottom: 75px;
-  color: var(--purple);
-  border: solid black 1px;
+  bottom: 25px;
+  color: var(--yellow);
+  border: dotted var(--yellow) 1px;
   border-radius: 10px;
-  padding: 5px ;
-  background-color: var(--yellow);
+  padding: 5px;
+  background-color: var(--purple);
 }
-
+ /* flext box section styling */
 .container {
   display: flex;
   justify-content: center;
@@ -119,25 +139,41 @@ h2 {
   padding-left: 110px;
 }
 
-.Placeholder {
+/* style the text box for the placeholder images and links.  Will be replaced onces projects are created */
+.Placeholder-text-box{
   display: inline-flex;
   position: relative;
-  color: var(--purple);
+  color: var(--yellow);
   right: 102px;
-  background-color: var(--yellow);
+  background-color: var(--purple);
   border-radius: 10px;
-  border: solid black 1px;
+  border: dotted var(--yellow) 1px;
   font-size: .75em;
   padding: 5px;
   }
 
-.Email {
+  /* styling the contact me section  */
+#Contact {
   padding: 5px;
   padding-top: 20px;
   color: var(--purple)
+  border: solid var(--yellow) 5px;
 }
 
+/* styling the footer section which holds the contact information */
   footer {
     padding-bottom: 30px;
     background-color: var(--teal);
+  }
+
+  /* styling the submit button */
+  #button {
+    color: var(--yellow);
+    background-color: var(--purple);
+    font-size: 1em;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: dotted var(--yellow);
+    cursor: pointer;
+    padding: 5px 20px 5px;
   }
