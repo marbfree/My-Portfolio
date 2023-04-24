@@ -13,9 +13,10 @@ Links in the nav bar will take you to the corrolated sections of the page.  Clic
 
 ## Credits
 
+Thank you to my tutor, Benicio Lopez, for helping me add the screenshot to my README.md.  Also, for helping me find the relative path for my links in html.  
+
 ## Features
 
 Links to sections of the page and image links to take you to the projects webpage.  Hover over the nav bar links and they will change color.  The submit button also changes colors on hover, focus, and active states.  Added non-emoji characters to headshot caption.
 
-
-The page should resize with use on various screens and devices with a responsive layout that adapts to a viewport.
+Screens with a max width of 601px, the nav links will stack and add a top border.  The background color for the figure and h1 will change as well as the font color and drop shadow.
