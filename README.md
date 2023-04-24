@@ -9,7 +9,8 @@ Providing an updated portfolio for potential employers to view samples of my wor
 Links in the nav bar will take you to the corrolated sections of the page.  Click on the project images and they will take you to the projects webpage.
 
 
-    ![alt text](/Users/mariannadavis/bootcamp/Homework/My-Portfolio/assets/images/My-Portfolio Screenshot.png)
+    <img width="204" alt="My-Portfolio Screenshot" src="https://user-images.githubusercontent.com/129333044/233893581-2a4776bc-1893-4979-99a8-2601a56a4cab.png">
+
 
 ## Credits
 
