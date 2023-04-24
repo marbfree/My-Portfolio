@@ -198,16 +198,31 @@ img {
     padding: 5px 20px 5px;
   }
 
+  /* when hovering over the submit button the background color and font color changes */
   #button:hover {
     background-color: var(--yellow);
     color: var(--purple);
   }
 
+  /* when the submit button has been clicked, the background color and font color changes */
   #button:focus {
     background-color: var(--yellow);
     color: var(--purple);
   }
   
+  /* when clicking and holding the submit button, the background color changes */
   #button:active {
     background-color: var(--teal);
+  }
+
+  /* for screens smaller than 391px, the background color changes to teal
+  and the color of the text in the h1 and figure caption changes as well as the drop shadow disapears */
+  @media screen and (max-width: 391px) {
+    body {
+      background-color: var(--teal);
+    }
+    h1, figcaption {
+      color: var(--purple);
+      text-shadow: 0px 0px 0px;
+    }
   }
