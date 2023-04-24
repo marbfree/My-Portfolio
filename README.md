@@ -9,22 +9,13 @@ Providing an updated portfolio for potential employers to view samples of my wor
 Links in the nav bar will take you to the corrolated sections of the page.  Click on the project images and they will take you to the projects webpage.
 
 
-    ![alt text](/Users/mariannadavis/bootcamp/Homework/My-Portfolio/assets/images/My-Portfolio Screenshot.png)
+ ![alt text](./assets/images/My-Portfolio%20Screenshot.png)   
 
 ## Credits
 
 ## Features
 
 Links to sections of the page and image links to take you to the projects webpage.  Hover over the nav bar links and they will change color.  The submit button also changes colors on hover, focus, and active states.  Added non-emoji characters to headshot caption.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-
 
 
 The page should resize with use on various screens and devices with a responsive layout that adapts to a viewport.
