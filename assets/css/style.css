@@ -169,6 +169,8 @@ h2 {
   /* created a border for the placeholder images */
 img {
     border: solid var(--yellow) 1px;
+    max-width: 50%;
+    max-height: 50%;
   }
 
   /* styling the email and name section  */
@@ -235,5 +237,4 @@ img {
     /* added a top border to clearly seperate the links */
   li {
     border-top: solid var(--yellow) 1px;
-  }
   }
