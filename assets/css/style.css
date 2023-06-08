@@ -53,6 +53,8 @@ h1 {padding-bottom: 15px;}
 
 /* styling the h1 heading and caption with drop shadows, letter outline */
 h1, figcaption {
+  font-size: 3em;
+  font-weight: bold;
   margin-top: 50px;
   text-align: center;
   color: var(--teal);
@@ -81,7 +83,8 @@ h1, figcaption {
 
 /* styling the caption of the headshot.  Setting the font size to 1.25em which is 25px */
 figcaption {
-  font-size: 1.25em;
+  font-size: 1.75em;
+  font-weight: bold;
   border-bottom: solid 5px var(--yellow);
   padding-bottom: 50px;
 }
@@ -116,6 +119,7 @@ h2 {
 .Bio {
   text-align: center;
   color: var(--purple);
+  font: bold;
   font-size: 1em;
   padding-top: 5px;
   padding-bottom: 25px;
@@ -123,7 +127,7 @@ h2 {
 }
 
 /* styling the photo link to be largest in portfolio section */
-#First-Project {
+.First-Project {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -146,11 +150,13 @@ h2 {
 
  /* flext box section styling */
 .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: inline-flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  padding-top: 50px;
   padding-left: 110px;
   padding-bottom: 50px;
+  padding-right: 110px;
 }
 
 /* style the text box for the placeholder images and links.  Set font size to .75em which is 15 px.  Will be replaced onces projects are created */
@@ -166,12 +172,16 @@ h2 {
   padding: 5px;
   }
 
-  /* created a border for the placeholder images */
-img {
-    border: solid var(--yellow) 1px;
-    max-width: 50%;
-    max-height: 50%;
+  #place {
+    width: auto;
   }
+
+  /* created a border for the placeholder images */
+/* img {
+  border: solid var(--yellow) 1px;
+  max-width: 75%;
+  max-height: 50%;
+  } */
 
   /* styling the email and name section  */
 #Contact {
